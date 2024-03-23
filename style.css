@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.game-container {
+    margin-top: 250px;
+}
+
+#guess {
+    width: 80%;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+#submit {
+    padding: 10px 10px;
+    cursor: pointer;
+}
